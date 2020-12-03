@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/test')
 def test():
-    return 'Testing exposed functionality ;)'
+    return 'Testing exposed functionality :) )'
 
 if __name__ == '__main__':
     app.run(debug=False,host='0.0.0.0')
